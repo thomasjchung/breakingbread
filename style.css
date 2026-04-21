@@ -556,14 +556,39 @@ a:hover { color: var(--brown); }
     opacity: 0.38;
 }
 
-/* Actual uploaded image style */
+/* Photo (use for real photographs — object-fit: cover) */
 .company-img {
     width: 100%;
     height: 400px;
     object-fit: cover;
+    object-position: center;
     border-radius: 8px;
     margin: 44px 0 40px;
     display: block;
+}
+
+/* Logo (use for logos — object-fit: contain with neutral background) */
+.company-img-logo {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+    border-radius: 8px;
+    margin: 44px 0 40px;
+    display: block;
+    background-color: var(--cream-dark);
+    padding: 48px;
+}
+
+/* Logo on dark background (for light/white logos) */
+.company-img-logo-dark {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+    border-radius: 8px;
+    margin: 44px 0 40px;
+    display: block;
+    background-color: var(--dark);
+    padding: 48px;
 }
 
 .company-info {

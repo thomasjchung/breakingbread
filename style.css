@@ -247,6 +247,21 @@ a:hover { color: var(--brown); }
     animation: fadeInUp 0.9s ease 0.3s both;
 }
 
+.hero-lang-label {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 0.82rem;
+    font-style: italic;
+    color: var(--green);
+    letter-spacing: 0.26em;
+    text-transform: uppercase;
+    display: block;
+    margin: 28px auto 14px;
+    max-width: 680px;
+    opacity: 0.72;
+    border-top: 1px solid rgba(139, 111, 71, 0.18);
+    padding-top: 24px;
+}
+
 /* ─── SECTIONS ─── */
 
 .section {

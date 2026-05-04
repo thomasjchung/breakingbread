@@ -702,6 +702,15 @@ a:hover { color: var(--brown); }
     background-color: var(--cream-dark);
 }
 
+/* Photo displayed at natural proportions — no cropping */
+.company-img-natural {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    margin: 44px 0 40px;
+}
+
 /* Logo on dark background (for light/white logos) */
 .company-img-logo-dark {
     width: 100%;
